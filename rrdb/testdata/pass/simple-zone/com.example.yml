@@ -1,0 +1,24 @@
+---
+zones:
+  - zone: example.com.
+    templates:
+      - mail
+    names:
+      - name: '@'
+        addresses:
+          literals:
+            - 192.0.2.1
+            - 2001:db8::1
+      - name: foo
+        forwarding:
+          ttl: 60
+          target: foo.volatile.example.com.
+      - name: bar
+        delegation:
+          nameservers:
+            - ns1.bar.example.org.
+            - ns2.bar.example.org.
+      - name: whois
+        texts:
+          data:
+            - I am robot.

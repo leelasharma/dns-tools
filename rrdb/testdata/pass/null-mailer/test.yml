@@ -1,0 +1,9 @@
+---
+zones:
+  - zone: example.com.
+    names:
+      - name: '@'
+        mail:
+          mailservers:
+            - mailserver: .
+              preference: 0

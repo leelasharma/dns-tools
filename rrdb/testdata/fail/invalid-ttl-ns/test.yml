@@ -1,0 +1,10 @@
+---
+zones:
+  - zone: example.com.
+    names:
+      - name: 'foo'
+        delegation:
+          ttl: -300
+          nameservers:
+            - ns1.example.com.
+            - ns2.example.com.

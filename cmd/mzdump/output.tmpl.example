@@ -1,0 +1,8 @@
+{{ range .ManagedZones }}
+Managed Zone: {{ .DnsName }}
+* Name: {{ .Name }}
+* NameServers:
+{{- range .NameServers }}
+  * {{ . -}}
+{{ end }}
+{{ end }}

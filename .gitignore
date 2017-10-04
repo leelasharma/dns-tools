@@ -1,0 +1,16 @@
+# binaries
+/dbcheck
+/mzadd
+/mzdump
+/mzmon
+/rrlookup
+/rrpush
+
+# custom configuration
+/config.yml
+
+# vendor files
+/vendor/*
+
+# zone information
+/zonedata/*

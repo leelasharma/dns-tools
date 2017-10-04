@@ -1,0 +1,13 @@
+---
+config:
+  zonedatadirectory: zonedata/
+  defaults:
+    ttl: 2147483650
+#    soa:
+#      ttl: 3600
+#      refresh: 3600
+#      retry: 300
+#      expire: 7200
+#      negttl: 300
+  managedzones:
+  - fqdn: egym.de.

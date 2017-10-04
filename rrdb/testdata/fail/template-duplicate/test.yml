@@ -1,0 +1,19 @@
+---
+templates:
+  - template: a
+    names:
+      - name: foo-a1
+        addresses:
+          literals:
+            - 2001:db8::a1
+  - template: a
+    names:
+      - name: foo-a2
+        addresses:
+          literals:
+            - 2001:db8::a2
+
+zones:
+  - zone: example.com.
+    templates:
+      - a

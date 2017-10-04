@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "staging-co",
+  "private_key_id": "Yeah, whatever!",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nHell no :)\n-----END PRIVATE KEY-----\n",
+  "client_email": "dns-tools@staging-co.iam.gserviceaccount.com",
+  "client_id": "123456789",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dns-tools%40staging-co.iam.gserviceaccount.com"
+}

@@ -1,0 +1,12 @@
+---
+zones:
+  - zone: example.com.
+    names:
+      - name: '@'
+        mail:
+          ttl: -300
+          mailservers:
+            - mailserver: mx1.example.com.
+              preference: 10
+            - mailserver: mx2.example.com.
+              preference: 20

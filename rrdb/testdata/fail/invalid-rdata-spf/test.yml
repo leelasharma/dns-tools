@@ -1,0 +1,11 @@
+---
+zones:
+  - zone: example.com.
+    names:
+      - name: '@'
+        senderpolicy:
+          version: 2
+          directives:
+            - a
+            - mx
+            - -all

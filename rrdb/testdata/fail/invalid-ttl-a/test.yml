@@ -1,0 +1,9 @@
+---
+zones:
+  - zone: example.com.
+    names:
+      - name: '@'
+        addresses:
+          ttl: -300
+          literals:
+            - 192.0.2.1

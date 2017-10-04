@@ -1,0 +1,15 @@
+---
+templates:
+  - template: mail
+    names:
+      - name: '@'
+        mail:
+          ttl: 7200
+          mailservers:
+            - mailserver: mx1.example.com.
+              preference: 10
+            - mailserver: mx2.example.com.
+              preference: 20
+        texts:
+          data:
+            - v=spf1 mx ~all

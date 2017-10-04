@@ -1,0 +1,4 @@
+{
+	"server": "https://influx.egym.coffee:8086/",
+	"username": "dns",
+}

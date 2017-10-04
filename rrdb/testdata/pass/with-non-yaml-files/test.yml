@@ -1,0 +1,8 @@
+---
+zones:
+  - zone: example.com.
+    names:
+      - name: foo
+        addresses:
+          literals:
+            - 2001:db8::1

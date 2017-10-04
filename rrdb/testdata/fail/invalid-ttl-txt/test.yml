@@ -1,0 +1,9 @@
+---
+zones:
+  - zone: example.com.
+    names:
+      - name: '@'
+        texts:
+          ttl: -300
+          data:
+            - So long and thanks for all the fish!

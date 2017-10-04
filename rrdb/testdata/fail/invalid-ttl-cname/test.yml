@@ -1,0 +1,8 @@
+---
+zones:
+  - zone: example.com.
+    names:
+      - name: 'foo'
+        forwarding:
+          ttl: -300
+          target: bar.example.com.
