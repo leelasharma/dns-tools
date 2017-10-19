@@ -81,8 +81,8 @@ been pulled in via a template.
     | | +-----------+   | File (JSON)     |
     | | |           |   +-----------------+
     +-| | Zone Data |            |                 ,--.
-      +-| (YAML)    |            v             _.-(    )_
-        |           |------> dns-tools <====> (_CloudDNS_)
+      +-| (YAML)    |            v             _.-(    )-.
+        |           |------> dns-tools <====> (_Cloud_DNS_)
         +-----------+            ^
                                  |
                         +-----------------+
