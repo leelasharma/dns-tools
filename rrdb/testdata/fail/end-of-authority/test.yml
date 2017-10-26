@@ -1,0 +1,15 @@
+---
+zones:
+  - zone: example.com.
+    names:
+      - name: sub
+        delegation:
+          nameservers:
+            - ns1.example.org.
+            - ns2.example.org.
+  - zone: sub.example.com.
+    names:
+      - name: foo
+        addresses:
+          literals:
+            - 2001:db8::1
